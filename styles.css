@@ -1,0 +1,204 @@
+/* Reset and base styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f8f9fa;
+}
+
+/* Container */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    min-height: 100vh;
+}
+
+/* Header */
+header {
+    text-align: center;
+    margin-bottom: 40px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #e9ecef;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    color: #2c3e50;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+.last-updated {
+    color: #6c757d;
+    font-style: italic;
+    font-size: 0.9rem;
+}
+
+#last-updated-date {
+    font-weight: 600;
+    color: #495057;
+}
+
+/* Main content */
+main {
+    margin-bottom: 40px;
+}
+
+/* Sections */
+section {
+    margin-bottom: 30px;
+}
+
+section.intro {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+    border-left: 4px solid #007bff;
+    margin-bottom: 40px;
+}
+
+section.intro p {
+    font-size: 1.1rem;
+    color: #495057;
+    margin: 0;
+}
+
+/* Headings */
+h1 {
+    color: #2c3e50;
+}
+
+h2 {
+    color: #34495e;
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #dee2e6;
+}
+
+h3 {
+    color: #495057;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+/* Paragraphs */
+p {
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+/* Lists */
+ul {
+    margin-bottom: 15px;
+    padding-left: 25px;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+/* Contact info */
+.contact-info {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid #dee2e6;
+    margin-top: 15px;
+}
+
+.contact-info p {
+    margin-bottom: 8px;
+}
+
+.contact-info p:last-child {
+    margin-bottom: 0;
+}
+
+/* Strong text */
+strong {
+    color: #2c3e50;
+    font-weight: 600;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding-top: 20px;
+    border-top: 1px solid #dee2e6;
+    color: #6c757d;
+    font-size: 0.9rem;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .container {
+        padding: 15px;
+        margin: 0;
+        border-radius: 0;
+        box-shadow: none;
+    }
+    
+    header h1 {
+        font-size: 2rem;
+    }
+    
+    section.intro {
+        padding: 15px;
+    }
+    
+    .contact-info {
+        padding: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 1.75rem;
+    }
+    
+    h2 {
+        font-size: 1.3rem;
+    }
+    
+    h3 {
+        font-size: 1.1rem;
+    }
+    
+    ul {
+        padding-left: 20px;
+    }
+}
+
+/* Print styles */
+@media print {
+    body {
+        background-color: white;
+    }
+    
+    .container {
+        box-shadow: none;
+        max-width: none;
+        padding: 0;
+    }
+    
+    section.intro {
+        background-color: transparent;
+        border: 1px solid #ccc;
+    }
+    
+    .contact-info {
+        background-color: transparent;
+        border: 1px solid #ccc;
+    }
+}

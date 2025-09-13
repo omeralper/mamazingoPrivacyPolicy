@@ -1,0 +1,22 @@
+theme: minima
+title: Mamazingo Privacy Policy
+description: Privacy Policy for the Mamazingo mobile application
+show_downloads: false
+google_analytics: # Add your Google Analytics tracking ID here if needed
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+
+# Exclude files from processing
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
