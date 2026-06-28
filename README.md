@@ -59,6 +59,13 @@ These services may process story inputs, uploaded photos, generated content, pur
 
 We do not knowingly send full names, email addresses, phone numbers, or precise location data to AI providers unless a user voluntarily includes such information inside a story prompt or uploaded content.
 
+## Tracking and Advertising
+
+Mamazingo does not use uploaded photos, story content, purchase data, user IDs, or device IDs for third-party advertising, targeted advertising, advertising measurement, or data broker sharing. We do not sell user data.
+
+We may use app-related identifiers, device identifiers, purchase information, story content, uploaded photos, generated content, and technical information only to provide app functionality, maintain story progress, process purchases, generate AI content, improve reliability, prevent abuse, and respond to support or privacy requests.
+
+
 ## Children’s Privacy
 
 Mamazingo is intended to be used with appropriate parental or guardian oversight when used by children. We do not knowingly collect personal contact information from children, such as email addresses, phone numbers, or precise location data.
